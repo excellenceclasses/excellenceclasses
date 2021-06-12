@@ -50,13 +50,29 @@
             box-shadow: 0 0 5px 0 rgb(0 0 0 / 50%);
             border-radius: 8px;
         }
-        #image-container{
-            width: 100%;
+
+        #image-container {
             display: flex;
-            align-items:center;
-           
+            flex-direction: row;
+            /* flex-direction: row-reverse; */
+            margin: 15px;
+            /* flex-wrap: wrap-reverse; */
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            /* align-content: center; */
+            background-color: rgb(196, 243, 243);
+            box-shadow: 0 0 5px 0 rgb(0 0 0 / 50%);
+            border-radius: 10px;
+            position: relative;
+
+            /* width: 100%;
+            display: flex;
+            align-items: center; */
+
         }
-        .imgs{
+
+        .imgs {
             margin: auto;
         }
     </style>
@@ -78,30 +94,33 @@
             <a href="" class="mr-5 hover:text-gray-900" style="color:aliceblue;">Contact us</a>
             <a href="" class="mr-5 hover:text-gray-900" style="color:aliceblue;">Privacy Policy</a>
         </nav>
-        
+
     </div>
 </header>
 <hr>
 <hr>
 
 <body style="background-color: lightblue;">
-<br>
-<br>
-<center><h1 style="font-size: 50px;"><strong>Excellence Classes Mobile App</strong></h1></center>
-<br>
-<a href="https://bit.ly/excellenceclasses021" target="_blank">
-    <center> <button
-            class="flex-shrink-0 text-white bg-blue-900 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg mt-10 sm:mt-0">
-            Download Now</button></center>
-</a>
-<br>
-<br>
-<div id="image-container" >
-   <img src="1.png" alt="Img" class="imgs"> <img src="2.png" alt="Img" class="imgs"> <img src="3.png" alt="Img" class="imgs"> 
-</div>
+    <br>
+    <br>
+    <center>
+        <h1 style="font-size: 50px;"><strong>Excellence Classes Mobile App</strong></h1>
+    </center>
+    <br>
+    <a href="https://bit.ly/excellenceclasses021" target="_blank">
+        <center> <button
+                class="flex-shrink-0 text-white bg-blue-900 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg mt-10 sm:mt-0">
+                Download Now</button></center>
+    </a>
+    <br>
+    <br>
+    <div id="image-container">
+        <img src="1.png" alt="Img" class="imgs"> <img src="2.png" alt="Img" class="imgs"> <img src="3.png" alt="Img"
+            class="imgs">
+    </div>
 
     <body style="background-color: #085bcf;">
-        
+
     </body>
 
 
@@ -170,7 +189,7 @@
 
 
     <footer style="background-color: rgb(204, 253, 155);" class="text-gray-600 body-font">
-        
+
         <div id="header1" class="bg-gray-100">
             <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
                 <p style="color:aliceblue;" class="text-gray-900 text-sm text-center sm:text-left">© 2021 Excellence
